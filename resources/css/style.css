@@ -1,0 +1,70 @@
+:root {
+  /* color*/
+  --color-dark-grey: #181818;
+  --color-white: #d6d6d6;
+  --color-deep-orange: #ff5a09;
+  --color-light-orange: #ec7f37;
+  --color-orange-yellow: #be4f0c;
+
+  /* Size */
+  --body-width: 1080px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+}
+
+body {
+  background-color: var(--color-dark-grey);
+  max-width: var(--body-width);
+  font-family: "Times New Roman", Times, serif;
+  padding: 0px 25px;
+}
+
+#headerGNV {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+  margin: 25px 32px;
+}
+
+#headerLogo {
+  font-size: 32px;
+  padding: 5px 10px;
+  border: var(--color-white) 2px solid;
+}
+
+#headerMenu > ul {
+  display: flex;
+}
+
+#headerMenu > ul > li {
+  color: var(--color-white);
+  margin: 0px 24px;
+  font-size: 18px;
+  list-style: none;
+}
+
+#headerMenu > ul > li > a,
+#headerMenu > ul > li > a:hover {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+/* Main Section */
+#mainBackgroundImg {
+  width: 100%;
+  max-width: var(--body-width);
+  filter: blur(4px) grayscale(100%) opacity(40%);
+}
+
+#mainAboutMe {
+  border: blue 5px solid;
+  color: var(--color-white);
+}
