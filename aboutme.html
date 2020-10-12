@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Developer - Simon Lee</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="headerGNV">
+      <section id="headerLogo">Simon Lee</section>
+      <section id="headerMenu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutme.html">About Me</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </section>
+    </header>
+
+    <!-- Main -->
+    <main id="aboutMeBody">
+      <section id="introTitle">
+        <div id="introMainTitle">MAIN INFO</div>
+        <div id="introSubTitle">ABOUT ME</div>
+      </section>
+      <!-- intro -->
+      <section id="intro">
+        <div id="introImgBtn">
+          <img src="./resources/img/myPhoto.JPG" id="introImg" alt="myPhoto" />
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-slack"></i></a>
+          <div id="introMsg">
+            <i class="fas fa-envelope"></i>
+            <span>great.simonlee@gmail.com</span>
+          </div>
+          <div id="introPhone">
+            <i class="fas fa-phone-alt"></i>
+            <span>+1 305 458 8075</span>
+          </div>
+          <div id="introCV">
+            <button class="introCVBtn">Download CV</button>
+          </div>
+          <div id="introHireMe">
+            <button class="introCVBtn">Hire Me</button>
+          </div>
+        </div>
+        <div id="introText"></div>
+      </section>
+      <!-- SEE -->
+      <section id="aboutMeSEE">
+        <article class="aboutMeSEEBtn">
+          <button>SKILLS</button>
+        </article>
+        <article class="aboutMeSEEBtn">
+          <button>EXPERIENCE</button>
+        </article>
+        <airtlcle class="aboutMeSEEBtn">
+          <button>EDUCATION</button>
+        </airtlcle>
+
+        <div id="aboutMeSEEContent">
+          <div id="aboutMeSkill" style="display: flex">
+            <div id="aboutMeSkillCard">
+              <div class="aboutMeSkillLan">
+                <div class="aboutMeSkillLanTitle">HTML</div>
+                <div class="aboutMeSkillLanPercent">80%</div>
+              </div>
+              <div class="aboutMeSkillBar">
+                <div class="aboutMeSkillBarPercent"></div>
+              </div>
+            </div>
+
+            <div class="aboutMeSkillLan">
+              <div class="aboutMeSkillLanTitle"></div>
+              <div class="aboutMeSkillLanPercent"></div>
+            </div>
+            <div class="aboutMeSkillLan">
+              <div class="aboutMeSkillLanTitle"></div>
+              <div class="aboutMeSkillLanPercent"></div>
+            </div>
+            <div class="aboutMeSkillLan">
+              <div class="aboutMeSkillLanTitle"></div>
+              <div class="aboutMeSkillLanPercent"></div>
+            </div>
+            <div class="aboutMeSkillLan">
+              <div class="aboutMeSkillLanTitle"></div>
+              <div class="aboutMeSkillLanPercent"></div>
+            </div>
+            <div class="aboutMeSkillLan">
+              <div class="aboutMeSkillLanTitle"></div>
+              <div class="aboutMeSkillLanPercent"></div>
+            </div>
+          </div>
+          <div id="aboutMeExperience" style="display: none"></div>
+          <div id="aboutMeEducation" style="display: none"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Javascript -->
+    <script src="./resources/js/app.js" type="text/javascript"></script>
+    <script src="./resources/js/data.js" type="text/javascript"></script>
+    <script src="./resources/js/text.js" type="text/javascript"></script>
+  </body>
+</html>
