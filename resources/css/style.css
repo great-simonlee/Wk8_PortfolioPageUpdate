@@ -296,3 +296,29 @@ body {
   background-color: var(--color-orange-yellow);
   outline: none;
 }
+
+/* SkillCards */
+
+.aboutMeSkillLan {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.aboutMeSkillBar {
+  background-color: var(--color-white);
+  width: 250px;
+  height: 20px;
+}
+
+.aboutMeSkillBarPercent {
+  background-color: var(--color-deep-orange);
+  /* Width should be controlled by JS */
+  width: 60%;
+  height: 100%;
+}
+
+/* footer */ /* footer */ /* footer */ /* footer */ /* footer */ /* footer */
+footer {
+  height: 250px;
+}
