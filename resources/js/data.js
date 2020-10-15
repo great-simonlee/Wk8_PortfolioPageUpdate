@@ -5,7 +5,7 @@ const aboutMeLanguage = {
     "Javascript": "70%", 
     "Bootstrap": "70%", 
     "Jquery": "70%", 
-    "React": "10%",
+    "React.js": "10%",
     "Python": "60%"
 }
 

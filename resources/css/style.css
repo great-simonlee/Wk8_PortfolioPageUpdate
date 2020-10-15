@@ -298,23 +298,35 @@ body {
 }
 
 /* SkillCards */
+#aboutMeSkill {
+  display: block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: var(--color-white);
+  font-size: 32px;
+  margin-top: 40px;
+  width: 1100px;
+}
+
+.aboutMeSkillCard {
+  display: inline-block;
+  width: 350px;
+  margin: 40px 20px;
+}
 
 .aboutMeSkillLan {
   display: flex;
   justify-content: space-between;
-  width: 250px;
 }
 
 .aboutMeSkillBar {
   background-color: var(--color-white);
-  width: 250px;
-  height: 20px;
+  width: 350px;
+  height: 40px;
 }
 
 .aboutMeSkillBarPercent {
   background-color: var(--color-deep-orange);
-  /* Width should be controlled by JS */
-  width: 60%;
   height: 100%;
 }
 
