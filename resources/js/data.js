@@ -47,7 +47,7 @@ const aboutMeEducation = {
     "Northeastern University": ["Master of Science </br> in Project Management", "Sep 2017 - Aug 2019"],
     "Peking University": ["Bachelor of Business Administration in Marketing", "Sep 2009 - Aug 2016"],
     "Columbia University": ["Full-Stack Coding Boot Camp", "Jul 2020 - Present"],
-    "Massachusetts </br> Institute of Technology": ["Machine Learning in Busines", "Apr 2019 - Jun 2019"],
+    "Massachusetts </br> Institute of Technology": ["Machine Learning in Business", "Apr 2019 - Jun 2019"],
 };
 
 const aboutMeEduImg = [
@@ -55,4 +55,25 @@ const aboutMeEduImg = [
     "./resources/img/SEE/PKU_logo.png",
     "./resources/img/SEE/CBU_logo.png",
     "./resources/img/SEE/MIT_logo.png"
+];
+
+const pfImg = [
+    "./resources/img/PF/pf1.png",
+    "./resources/img/PF/pf2.png",
+    "./resources/img/PF/pf3.png",
+    "./resources/img/PF/pf4.png",
+    "./resources/img/PF/pf5.png",
+    "./resources/img/PF/pf6.png",
+    "./resources/img/PF/pf7.png",
+]
+
+const pfTitle = [
+    "Weather Dashboard",
+    "Calendar",
+    "Shopping mall",
+    "YouTube Clone",
+    "Facebook Clone",
+    "Instagram Clone",
+    "Google Clone",
+
 ]
