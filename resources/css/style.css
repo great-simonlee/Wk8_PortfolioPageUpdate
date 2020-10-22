@@ -17,6 +17,10 @@
   cursor: default;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a,
 i,
 button {
@@ -38,6 +42,8 @@ body {
 #gnv {
   position: sticky;
   top: 0px;
+
+  z-index: 3;
   background-color: var(--color-dark-grey);
 }
 
@@ -45,7 +51,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 3;
   color: var(--color-white);
   margin: 35px 32px 5vh 32px;
 }
