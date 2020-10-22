@@ -114,12 +114,22 @@ function createEduCard (loc, loc2, array, arrayImg) {
 createEduCard(eduDegreeCard, eduCertCard, aboutMeEducation, aboutMeEduImg);
 
 // Portfolio Page
-const pfSection = document.getElementsByName("pfSection");
+const pfSection = document.getElementById("pfSection");
 
-function createPFCard() {
-  
+function createPFCard(loc, img, project, projectLan) {
+  for (let i=0; i<img.length;i++) {
+    loc.innerHTML += `
+    <div class="pfCard">
+      <img src="${img[i]}" class="pfImg"/>
+      <div class="pfTitle" style="visibility: hidden;">
+        <div class="pfTItleBg"></div>
+        <div class="pfProject">${project[i]}</div>
+        <div class="pfLang">${projectLan[i]}</div>
+        <a href="#"><button type="button" class="pfBtn">LEARN MORE</button></a>
+      </div>
+    </div>
+    `
+  }
 }
 
-
-console.log(pfImg);
-console.log(pfTitle);
+createPFCard(pfSection, pfImg, Object.keys(pfTitle), Object.values(pfTitle));

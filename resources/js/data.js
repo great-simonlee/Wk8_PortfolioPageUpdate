@@ -67,13 +67,12 @@ const pfImg = [
     "./resources/img/PF/pf7.png",
 ]
 
-const pfTitle = [
-    "Weather Dashboard",
-    "Calendar",
-    "Shopping mall",
-    "YouTube Clone",
-    "Facebook Clone",
-    "Instagram Clone",
-    "Google Clone",
-
-]
+const pfTitle = {
+    "Weather Dashboard": "Vanilla JS",
+    "Calendar": "Vanilla JS",
+    "Shopping mall": "Vanilla JS",
+    "YouTube Clone": "CSS",
+    "Facebook Clone": "CSS",
+    "Instagram Clone": "CSS",
+    "Google Clone": "CSS / Vanilla JS",
+}

@@ -34,3 +34,21 @@ function changeSEEPages(btn) {
 }
 
 setAboutMeSEEOptionClick();
+
+
+// Add Hover Effects on Projects Portfolio
+const pfCardEvent = document.getElementsByClassName("pfImg");
+const pfCardContent = document.getElementsByClassName("pfTitle");
+
+function addpfCardHoverEvent (pfCardDiv) {
+    for (let i=0; i<pfCardDiv.length; i++) {
+        pfCardDiv[i].addEventListener("mouseenter", () => {pfCardContent[i].style.visibility = "visible"})
+        pfCardDiv[i].addEventListener("mouseenter", () => {pfCardDiv[i].style.visibility = "hidden"})
+
+        pfCardContent[i].addEventListener("mouseleave", () => {pfCardContent[i].style.visibility = "hidden"})
+        pfCardContent[i].addEventListener("mouseleave", () => {pfCardDiv[i].style.visibility = "visible"})
+    }
+}
+
+
+addpfCardHoverEvent(pfCardEvent);
