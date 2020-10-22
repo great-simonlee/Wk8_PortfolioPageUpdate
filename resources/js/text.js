@@ -24,7 +24,7 @@ function createSkillEachCard(loc, lang, achie) {
       <div class="aboutMeSkillLanTitle">${lang}</div>
       <div class="aboutMeSkillLanPercent">${achie}</div>
     </div>
-    <div class="aboutMeSkillBar">
+    <div class="aboutMeSkillBar"> 
       <div class="aboutMeSkillBarPercent"></div>
     </div>
   </div>
@@ -113,3 +113,13 @@ function createEduCard (loc, loc2, array, arrayImg) {
 
 createEduCard(eduDegreeCard, eduCertCard, aboutMeEducation, aboutMeEduImg);
 
+// Portfolio Page
+const pfSection = document.getElementsByName("pfSection");
+
+function createPFCard() {
+  
+}
+
+
+console.log(pfImg);
+console.log(pfTitle);

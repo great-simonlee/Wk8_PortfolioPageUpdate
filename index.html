@@ -4,23 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Developer - Simon Lee</title>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./resources/css/style.css" />
   </head>
   <body>
-    <!-- Header -->
+    <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> 
     <header id="headerGNV">
       <section id="headerLogo">Simon Lee</section>
       <section id="headerMenu">
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./aboutme.html">About Me</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#aboutMeBody">About Me</a></li>
+          <li><a href="#portfolioBody">Portfolio</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </section>
     </header>
 
-    <!-- Main -->
+
+    <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> 
     <main id="main">
       <section id="mainBackground">
         <img
@@ -32,14 +39,114 @@
         <span id="span2">I'm Simon Lee</span>
         <span id="span3">Front-end Developer</span>
         <button id="mainBackgroundBtn">
-          <a href="./aboutme.html">More About Me</a>
+          <a href="#aboutMeBody">More About Me</a>
         </button>
       </section>
-      <section id="mainAboutMe">
-        <div class="infoTitle">MAIN INFO</div>
-        <div class="infoSubTitle">ABOUT ME</div>
+    </main>
+
+
+    <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> 
+    <main id="aboutMeBody">
+      <section class="introTitle">
+        <div class="introMainTitle">MAIN INFO</div>
+        <div class="introSubTitle">ABOUT ME</div>
+      </section>
+      <!-- intro -->
+      <section id="intro">
+        <div id="introImgBtn">
+          <img src="./resources/img/myPhoto.JPG" id="introImg" alt="myPhoto" />
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-slack"></i></a>
+          <div id="introMsg">
+            <i class="fas fa-envelope"></i>
+            <span>great.simonlee@gmail.com</span>
+          </div>
+          <div id="introPhone">
+            <i class="fas fa-phone-alt"></i>
+            <span>+1 305 458 8075</span>
+          </div>
+          <div id="introCV">
+            <button class="introCVBtn">Download CV</button>
+          </div>
+          <div id="introHireMe">
+            <button class="introCVBtn">Hire Me</button>
+          </div>
+        </div>
+        <div id="introText"></div>
+      </section>
+      <!-- SEE -->
+      <section id="aboutMeSEE">
+        <article class="aboutMeSEEBtn">
+          <button type="button">SKILLS</button>
+        </article>
+        <article class="aboutMeSEEBtn">
+          <button type="button">EXPERIENCE</button>
+        </article>
+        <airtlcle class="aboutMeSEEBtn">
+          <button type="button">EDUCATION</button>
+        </airtlcle>
+      </section>
+      <!-- SEE Contents -->
+      <section id="aboutMeSEEContent">
+        <div id="aboutMeSkill" style="display: none"></div>
+        <div id="aboutMeExperience" style="display: none"></div>
+        <div id="aboutMeEducation" style="display: none">
+          <div id="aboutMeEduDegree">
+            <div class="aboutMeEduTitle">Degree Program</div>
+          </div>
+          <div id="aboutMeEduCert">
+            <div class="aboutMeEduTitle">Certificate Program</div>
+          </div>
       </section>
     </main>
+
+
+    <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> 
+    <main id="portfolioBody">
+      <section class="introTitle">
+        <div class="introMainTitle">MAIN INFO</div>
+        <div class="introSubTitle">PORTFOLIO</div>
+      </section>
+      <section id="pfSection">
+        <div class="pfCard">
+          <img src="./resources/img/PF/pf1.png" class="pfImg" />
+          <div class="pfTitle">
+            <div class="pfTItleBg"></div>
+            <div class="pfProject">Weather Dashboard</div>
+            <div class="pfLang">Javascript</div>
+            <a href="#"><button type="button" class="pfBtn">LEARN MORE</button></a>
+          </div>
+        </div>
+        <div class="pfCard">
+          <img src="./resources/img/PF/pf2.png" class="pfImg" />
+          <div class="pfTitle">Weather Dashboard</div>
+        </div>
+        <div class="pfCard">
+          <img src="./resources/img/PF/pf3.png" class="pfImg" />
+          <div class="pfTitle">Weather Dashboard</div>
+        </div>
+        <div class="pfCard">
+          <img src="./resources/img/PF/pf4.png" class="pfImg" />
+          <div class="pfTitle">Weather Dashboard</div>
+        </div>
+        <div class="pfCard">
+          <img src="./resources/img/PF/pf5.png" class="pfImg" />
+          <div class="pfTitle">Weather Dashboard</div>
+        </div>
+        <div class="pfCard">
+          <img src="./resources/img/PF/pf6.png" class="pfImg" />
+          <div class="pfTitle">Weather Dashboard</div>
+        </div>
+      </section>
+    </main>
+
+    
+    <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> 
+
+
+
 
     <!-- Footer -->
     <footer>
@@ -47,7 +154,8 @@
     </footer>
 
     <!-- js file -->
-    <script src="./resources/js/app.js"></script>
     <script src="./resources/js/data.js"></script>
+    <script src="./resources/js/text.js"></script>
+    <script src="./resources/js/app.js"></script>
   </body>
 </html>
