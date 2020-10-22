@@ -125,7 +125,7 @@ function createPFCard(loc, img, project, projectLan) {
         <div class="pfTItleBg"></div>
         <div class="pfProject">${project[i]}</div>
         <div class="pfLang">${projectLan[i]}</div>
-        <a href="#"><button type="button" class="pfBtn">LEARN MORE</button></a>
+        <a href="#portfolioBody"><button type="button" class="pfBtn">LEARN MORE</button></a>
       </div>
     </div>
     `

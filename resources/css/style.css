@@ -487,6 +487,7 @@ body {
   width: 250px;
   height: 250px;
   background-color: #ffffff;
+  border: var(--color-deep-orange) 2px solid;
   opacity: 0.9;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
