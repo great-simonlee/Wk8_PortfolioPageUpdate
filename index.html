@@ -14,21 +14,23 @@
   </head>
   <body>
     <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> <!-- Global Nav Bar --> 
-    <header id="headerGNV">
-      <section id="headerLogo">Simon Lee</section>
-      <section id="headerMenu">
-        <ul>
-          <li><a href="#main">Home</a></li>
-          <li><a href="#aboutMeBody">About Me</a></li>
-          <li><a href="#portfolioBody">Portfolio</a></li>
-          <li><a href="#contactBody">Contact</a></li>
-        </ul>
-      </section>
+    <header id="gnv">
+      <nav id="headerGNV">
+        <section id="headerLogo">Simon Lee</section>
+        <section id="headerMenu">
+          <ul>
+            <li><a data-page="home" href="#main">Home</a></li>
+            <li><a data-page="aboutMe" href="#aboutMeBody">About Me</a></li>
+            <li><a data-page="portfolio" href="#portfolioBody">Portfolio</a></li>
+            <li><a data-page="contact" href="#contactBody">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
     </header>
 
 
     <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> <!-- Intro Page --> 
-    <main id="main">
+    <main id="main" class="home">
       <section id="mainBackground">
         <img
           src="./resources/img/background.jpg"
@@ -38,15 +40,12 @@
         <span id="span1">Hello ~</span>
         <span id="span2">I'm Simon Lee</span>
         <span id="span3">Front-end Developer</span>
-        <button id="mainBackgroundBtn">
-          <a href="#aboutMeBody">More About Me</a>
-        </button>
       </section>
     </main>
 
 
     <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> <!-- About Me Page --> 
-    <main id="aboutMeBody">
+    <main id="aboutMeBody" class="aboutMe">
       <section class="introTitle">
         <div class="introMainTitle">MAIN INFO</div>
         <div class="introSubTitle">ABOUT ME</div>
@@ -59,6 +58,7 @@
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-facebook-square"></i></a>
           <a href="#"><i class="fab fa-slack"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
           <div id="introMsg">
             <i class="fas fa-envelope"></i>
             <span>great.simonlee@gmail.com</span>
@@ -104,7 +104,7 @@
 
 
     <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> <!-- Portfolio Page --> 
-    <main id="portfolioBody">
+    <main id="portfolioBody" class="portfolio">
       <section class="introTitle">
         <div class="introMainTitle">MAIN INFO</div>
         <div class="introSubTitle">PORTFOLIO</div>
@@ -114,13 +114,37 @@
 
     
     <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> <!-- Contact Me --> 
-<main id="contactBody"></main>
+    <main id="contactBody" class="contactMe">
+      <section class="introTitle">
+        <div class="introMainTitle">MAIN INFO</div>
+        <div class="introSubTitle">CONTACT ME</div>
+      </section>
+      <section id="contactMeSubmit">
+        <form id="contactMeUserInput" action="">
+          <input id="contactMeName" name="contactMeName" type="text" placeholder="  Name" />
+          <input id="contactMeEmail" name="contactMeEmail" type="email" placeholder="  Enter Email" />
+          <textarea id="contactMeMsg" name="contactMeMsg" cols="30" rows="10" placeholder=" Your Message"></textarea>
+          <button id="contactMeBtn" type="button">SUBMIT</button>
+        </form>
+      </section>
+    </main>
 
 
 
     <!-- Footer -->
     <footer>
-      <section></section>
+      <section>
+        <div id="footerSNS">
+          <ul>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-slack"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+        <div id="footerMark">Created by Simon Lee. Oct 2020.</div>
+      </section>
     </footer>
 
     <!-- js file -->

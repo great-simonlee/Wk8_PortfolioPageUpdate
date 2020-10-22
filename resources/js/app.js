@@ -1,5 +1,6 @@
 "use strict";
 
+// SEE Options Click
 var currentSEEOption;
 const aboutMeSEEBtn = document.getElementsByClassName("aboutMeSEEBtn");
 const aboutMeSkillDiv = document.getElementById("aboutMeSkill");
@@ -11,7 +12,6 @@ function setAboutMeSEEOptionClick () {
         aboutMeSEEBtn[i].addEventListener("click", (e) => {
             currentSEEOption = e.target.innerText;
             changeSEEPages(currentSEEOption);
-            console.log(currentSEEOption);
         })
     }
 }
