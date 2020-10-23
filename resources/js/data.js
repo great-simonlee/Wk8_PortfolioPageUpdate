@@ -69,10 +69,15 @@ const pfImg = [
 
 const pfTitle = {
     "Weather Dashboard": "Vanilla JS",
-    "Calendar": "Vanilla JS",
-    "Shopping mall": "Vanilla JS",
-    "YouTube Clone": "CSS",
-    "Facebook Clone": "CSS",
-    "Instagram Clone": "CSS",
-    "Google Clone": "CSS / Vanilla JS",
+    "Password Generator": "Vanilla JS",
+    "Example 0": "Example ",
+    "Example 1": "Example 1",
+    "Example 2": "Example 2",
+    "Example 3": "Example 3",
+    "Example 4": "Example 4",
+}
+
+const pfWebpage = {
+    "Weather Dashboard": "https://great-simonlee.github.io/Wk6_Weather/",
+    "Password Generator": "https://great-simonlee.github.io/Wk3_PasswordGenerator/"
 }

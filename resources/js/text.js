@@ -125,7 +125,7 @@ function createPFCard(loc, img, project, projectLan) {
         <div class="pfTItleBg"></div>
         <div class="pfProject">${project[i]}</div>
         <div class="pfLang">${projectLan[i]}</div>
-        <a href="#portfolioBody"><button type="button" class="pfBtn">LEARN MORE</button></a>
+        <a href="#portfolioBody" class="pfAnchor"><button type="button" class="pfBtn">LEARN MORE</button></a>
       </div>
     </div>
     `
@@ -133,3 +133,13 @@ function createPFCard(loc, img, project, projectLan) {
 }
 
 createPFCard(pfSection, pfImg, Object.keys(pfTitle), Object.values(pfTitle));
+
+// pf Links (Only for first, second, and third webapps)
+// This part will be re-written when I have enough number of projects
+const pfFirstCard = document.getElementsByClassName("pfAnchor")[0];
+pfFirstCard.href = Object.values(pfWebpage)[0];
+pfFirstCard.target = "_blank";
+
+const pfSecondCard = document.getElementsByClassName("pfAnchor")[1];
+pfSecondCard.href = Object.values(pfWebpage)[1];
+pfSecondCard.target = "_blank";
