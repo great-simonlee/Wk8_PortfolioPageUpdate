@@ -33,6 +33,10 @@ This project is to create my portfolio webpage that I can show my projects.
 - Portfolio page: Projects done and uploaded on Github are listed on the page.
 - Contact page: Sending an email.
 
+## Future Development
+
+- Responsive design is excluded at this moment -> this feature will be developed in the future.
+
 ## References
 
 - How to write a good README: https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project
